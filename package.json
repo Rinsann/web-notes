@@ -1,5 +1,5 @@
 {
-  "name": "evernote-client-teach",
+  "name": "web-notes",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "ruoyu <hunger@jirengu.com>",
@@ -11,6 +11,8 @@
     "zip": "rm -f *.zip && zip -P jirengu.com -r `git branch | grep '\\* ' | cut -d ' ' -f 2`.zip . -x 'node_modules/*'"
   },
   "dependencies": {
+    "axios": "^0.18.1",
+    "less": "^3.13.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
